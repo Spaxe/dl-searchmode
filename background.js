@@ -4,7 +4,7 @@ chrome.pageAction.onClicked.addListener(function(tab) {
   toggle[tab.id] = !toggle[tab.id];
 
   chrome.tabs.sendMessage(tab.id, {status: "Toggle", toggle: toggle[tab.id]});
-  console.log('Toggle: ', tab.url, toggle[tab.id]);
+  // console.log('Toggle: ', tab.url, toggle[tab.id]);
 
   if (toggle[tab.id]) {
     chrome.pageAction.setIcon({tabId: tab.id,
@@ -30,5 +30,20 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
     console.log('Loaded ' + sender.tab.url);
     toggle[sender.tab.id] = true;
     chrome.pageAction.show(sender.tab.id);
+  }
+});
+
+function doInCurrentTab(tabCallback) {
+  chrome.tabs.query({ currentWindow: true, active: true },
+    function (tabArray) { tabCallback(tabArray[0]); }
+  );
+}
+
+chrome.commands.onCommand.addListener(function (command) {
+  if (command === 'toggle-search-mode') {
+    doInCurrentTab(function (tab) {
+      toggle[tab.id] = !toggle[tab.id];
+      chrome.tabs.sendMessage(tab.id, {status: "Toggle", toggle: toggle[tab.id]});
+    });
   }
 });

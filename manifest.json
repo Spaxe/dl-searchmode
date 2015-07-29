@@ -10,7 +10,7 @@
   "commands": {
     "toggle-search-mode": {
       "suggested_key": {
-        "default": "Ctrl+Shift+S"
+        "default": "Alt+S"
       },
       "description": "Toggle search mode on and off"
     }
