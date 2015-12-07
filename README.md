@@ -38,10 +38,15 @@ You can load unpacked extensions.
 Acknowledgement
 ---------------
 Martin Tomitsch, Design Lab, University of Sydney
+
 Kim Wilson, Fisher Library, University of Sydney
+
 John Allsopp, Web Directions
+
 Sheron Kerr, Global Access Project
+
 Kylie Colvin, Global Access Project
+
 Katja Forbes, Perceptive Ideas
 
 This project was funded by the auDA Foundation in 2014: http://www.audafoundation.org.au/grant-recipients/2014/university-of-sydney/
