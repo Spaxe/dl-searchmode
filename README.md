@@ -1,7 +1,7 @@
-Search Mode for Digital Libraries
+
+Find with Sam [experimental]
 =================================
-This browser extension aims to create a better search experience with digital
-libraries for visually impaired scholars and policy makers.
+Find with Sam is a work-in-progress Google Chrome extension aimed at creating a better search experience with digital libraries for screen reader users.
 
 Features
 --------
@@ -21,14 +21,13 @@ Planned Features
 
 Usage
 -----
-Click on the button in the address bar to toggle on/off. If the website is not
-supported, please let us know by opening an Feature Request issue.
+TODO.
 
-Install (Advanced)
-------------------
+For developers
+--------------
 You can load unpacked extensions.
 
- 1. Clone or [download](https://github.com/Spaxe/dl-searchmode/archive/master.zip) this repository.
+ 1. Clone or [download](https://github.com/Spaxe/findwithsam/archive/master.zip) this repository.
  2. In Google Chrome, go to chrome://extensions/.
  3. Check "Developer mode" is ticked.
  4. Click on "Load unpacked extension..." button and navigate to the folder of
@@ -49,6 +48,6 @@ This project was funded by the auDA Foundation in 2014: http://www.audafoundatio
 
 Contact
 -------
-Author: Xavier Ho <xavier.ho@sydney.edu.au>
+Xavier Ho <xavier.ho@sydney.edu.au>
 
 Contributors and Testers are welcome.
