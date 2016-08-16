@@ -12,7 +12,7 @@ function handleToggle(tab) {
                                   '38': 'images/button38px.png'
                                 }
                               });
-    chrome.pageAction.setTitle({tabId: tab.id, title: "Find with Sam is ON. Click this button or use Ctrl+Shift+S (Command+Shift+S on Mac) to disable."});
+    chrome.pageAction.setTitle({tabId: tab.id, title: "Find with Sam is ON. Click this button or use Alt+S to disable."});
   } else {
     chrome.pageAction.setIcon({tabId: tab.id,
                                 path: {
@@ -20,7 +20,7 @@ function handleToggle(tab) {
                                   '38': 'images/button_off38px.png'
                                 }
                               });
-    chrome.pageAction.setTitle({tabId: tab.id, title: "Search Mode is OFF. Click this button or use Ctrl+Shift+S (Command+Shift+S on Mac) to enable."});
+    chrome.pageAction.setTitle({tabId: tab.id, title: "Search Mode is OFF. Click this button or use Alt+S to enable."});
   }
 }
 
