@@ -5,8 +5,6 @@
   "description": "Do you use a screen reader to search academic literature? Find with Sam to save you time! (Currently works on ACM Digital Library and JSTOR.) Please use https://github.com/Spaxe/findwithsam/issues to give us feedback.",
   "version": "1.0",
 
-  "default_locale": "en",
-
   "author": "Xavier Ho",
 
   "icons": { "128": "icon.png" },
