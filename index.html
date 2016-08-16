@@ -1,31 +1,58 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html>
   <head>
-    <meta charset="UTF-8">
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=640">
+
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen">
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
     <title>Find with Sam by Spaxe</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
   </head>
+
   <body>
-    <section class="page-header">
-      <h1 class="project-name">Find with Sam</h1>
-      <h2 class="project-tagline">Clutter-free search mode for digital libraries on the web.</h2>
-      <a href="https://github.com/Spaxe/findwithsam" class="btn">View on GitHub</a>
-      <a href="https://github.com/Spaxe/findwithsam/zipball/master" class="btn">Download .zip</a>
-      <a href="https://github.com/Spaxe/findwithsam/tarball/master" class="btn">Download .tar.gz</a>
-    </section>
+    <a id="forkme_banner" href="https://github.com/Spaxe/findwithsam">View on GitHub</a>
+    <div class="shell">
 
-    <section class="main-content">
-      <h1>
-<a id="find-with-sam-experimental" class="anchor" href="#find-with-sam-experimental" aria-hidden="true"><span class="octicon octicon-link"></span></a>Find with Sam [experimental]</h1>
+      <header>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>Find with Sam</h1>
+            <h2>Clutter-free search for screen readers on digital libraries.</h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+      </header>
 
-<p>Find with Sam is a work-in-progress Google Chrome extension aimed at creating a better search experience with digital libraries for screen reader users.</p>
+      <section id="downloads">
+        <span class="inner">
+          <a href="https://github.com/Spaxe/findwithsam/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/Spaxe/findwithsam/tarball/master" class="tgz"><em>download</em> .TGZ</a>
+        </span>
+      </section>
+
+
+      <span class="banner-fix"></span>
+
+
+      <section id="main_content">
+        <h1>
+<a id="find-with-sam" class="anchor" href="#find-with-sam" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Find with Sam</h1>
+
+<p>Find with Sam is a Google Chrome extension aimed at creating a better search experience with digital libraries for screen reader users.</p>
 
 <h2>
-<a id="features" class="anchor" href="#features" aria-hidden="true"><span class="octicon octicon-link"></span></a>Features</h2>
+<a id="features" class="anchor" href="#features" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Features</h2>
 
 <ul>
 <li>Better, cleaner search pages and results</li>
@@ -36,7 +63,7 @@
 </ul>
 
 <h2>
-<a id="planned-features" class="anchor" href="#planned-features" aria-hidden="true"><span class="octicon octicon-link"></span></a>Planned Features</h2>
+<a id="planned-features" class="anchor" href="#planned-features" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Planned Features</h2>
 
 <ul>
 <li>Better accessibility: hotkeys, voice hints, settings/about page</li>
@@ -47,27 +74,37 @@
 </ul>
 
 <h2>
-<a id="usage" class="anchor" href="#usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage</h2>
-
-<p>TODO.</p>
-
-<h2>
-<a id="for-developers" class="anchor" href="#for-developers" aria-hidden="true"><span class="octicon octicon-link"></span></a>For developers</h2>
-
-<p>You can load unpacked extensions.</p>
+<a id="usage" class="anchor" href="#usage" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Usage</h2>
 
 <ol>
-<li>Clone or <a href="https://github.com/Spaxe/findwithsam/archive/master.zip">download</a> this repository.</li>
+<li>Install the Extension from Chrome Web Store.</li>
+<li>Browse to a digital library like the <a href="http://www.jstor.org/">JSTOR</a> or <a href="http://dl.acm.org/">ACM Digital Library</a>.</li>
+<li>Click on the orange/grey button to enable or disable Find with Sam. You can also use Alt+S hotkey to toggle it.</li>
+<li>
+<a href="https://github.com/Spaxe/findwithsam/issues/new">Open an issue to suggest a feature or report a bug</a>!</li>
+</ol>
+
+<h2>
+<a id="contribute" class="anchor" href="#contribute" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Contribute</h2>
+
+<p>Load unpacked extensions and contribute your own additions!</p>
+
+<ol>
+<li>
+<a href="https://github.com/Spaxe/findwithsam/#fork-destination-box">Fork this project</a> and clone it to your computer.</li>
 <li>In Google Chrome, go to chrome://extensions/.</li>
 <li>Check "Developer mode" is ticked.</li>
 <li>Click on "Load unpacked extension..." button and navigate to the folder of
 this tool.</li>
 <li>Refresh your webpage. If it's supported, you will see an orange circle on
 the address bar.</li>
+<li>Edit <a href="https://github.com/Spaxe/findwithsam/blob/master/findwithsam.css"><code>findwithsam.css</code></a> and reload the extension to see your changes!</li>
+<li>
+<a href="https://github.com/Spaxe/findwithsam/pulls">Send us a pull request</a>!</li>
 </ol>
 
 <h2>
-<a id="acknowledgement" class="anchor" href="#acknowledgement" aria-hidden="true"><span class="octicon octicon-link"></span></a>Acknowledgement</h2>
+<a id="acknowledgement" class="anchor" href="#acknowledgement" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Acknowledgement</h2>
 
 <p>Martin Tomitsch, Design Lab, University of Sydney</p>
 
@@ -84,20 +121,27 @@ the address bar.</li>
 <p>This project was funded by the auDA Foundation in 2014: <a href="http://www.audafoundation.org.au/grant-recipients/2014/university-of-sydney/">http://www.audafoundation.org.au/grant-recipients/2014/university-of-sydney/</a></p>
 
 <h2>
-<a id="contact" class="anchor" href="#contact" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contact</h2>
+<a id="project-contact" class="anchor" href="#project-contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Project Contact</h2>
 
 <p>Xavier Ho <a href="mailto:xavier.ho@sydney.edu.au">xavier.ho@sydney.edu.au</a></p>
 
 <p>Contributors and Testers are welcome.</p>
+      </section>
 
-      <footer class="site-footer">
-        <span class="site-footer-owner"><a href="https://github.com/Spaxe/findwithsam">Find with Sam</a> is maintained by <a href="https://github.com/Spaxe">Spaxe</a>.</span>
-
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      <footer>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>this project by <a href="https://github.com/Spaxe">Spaxe</a> can be found on <a href="https://github.com/Spaxe/findwithsam">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="https://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
       </footer>
 
-    </section>
+    </div>
 
-  
+    
   </body>
 </html>
