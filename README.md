@@ -1,6 +1,6 @@
 
 Find with Sam [experimental]
-=================================
+============================
 Find with Sam is a work-in-progress Google Chrome extension aimed at creating a better search experience with digital libraries for screen reader users.
 
 Features

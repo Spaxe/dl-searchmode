@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
 
-  "name": "Search Mode",
-  "description": "Clutter-free search mode.",
+  "name": "Find with Sam",
+  "description": "Do you use a screen reader to search academic literature? Find with Sam to save you time!",
   "version": "1.0",
 
   "author": "Xavier Ho",
@@ -32,8 +32,8 @@
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
-      "css": ["search-mode.css"],
-      "js": ["search-mode.js"],
+      "css": ["findwithsam.css"],
+      "js": ["findwithsam.js"],
       "run_at": "document_start"
     }
   ],

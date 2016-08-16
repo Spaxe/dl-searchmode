@@ -1,6 +1,6 @@
 /**
  * search-mode.js
- * Clutter-free search mode for the visually impaired.
+ * Find with Sam to make screen readers cleaner, easier, not cluttered.
  */
 (function injectSearchMode () {
   var patterns = [
@@ -11,11 +11,7 @@
     {
       name: "acm",
       pattern: /https?:\/\/dl\.acm\.org\//
-    },
-    {
-      name: "acm-results",
-      pattern: /https?:\/\/dl\.acm\.org\/results\.cfm/
-    },
+    }
   ];
   activate();
 
@@ -36,7 +32,7 @@
   function activate () {
     patterns.forEach(function (p) {
       if (p.pattern.test(window.location.href)) {
-        document.documentElement.classList.add(p.name + '-search-mode');
+        document.documentElement.classList.add(p.name + '-findwithsam');
       }
     });
   }
@@ -44,7 +40,7 @@
   function deactivate () {
     patterns.forEach(function (p) {
       if (p.pattern.test(window.location.href)) {
-        document.documentElement.classList.remove(p.name + '-search-mode');
+        document.documentElement.classList.remove(p.name + '-findwithsam');
       }
     });
   }

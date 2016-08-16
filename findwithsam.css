@@ -1,0 +1,26 @@
+/* JSTOR */
+/* search page */
+.jstor-findwithsam #nav-global,
+.jstor-findwithsam #nav-support,
+.jstor-findwithsam #skipNav,
+.jstor-findwithsam #content .tabs-search-results,
+.jstor-findwithsam #content .search-filters,
+/* front page */
+.jstor-findwithsam #content .homeMain > :not(#hero),
+.jstor-findwithsam #right-rail
+{
+  display: none;
+}
+
+/* ACM Digital Library */
+/* search page */
+.acm-findwithsam #aggs,
+.acm-findwithsam #resultstats
+{
+  display: none;
+}
+
+.acm-findwithsam #results
+{
+  width: 100%;
+}
