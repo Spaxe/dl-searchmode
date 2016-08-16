@@ -7,7 +7,6 @@ Features
 --------
  * Better, cleaner search pages and results
  * Toggle on and off interface
- * Adds tooltips where it lacks
  * Supports Google Chrome
  * Supports JSTOR and ACM Digital Library
 
@@ -15,6 +14,7 @@ Planned Features
 ----------------
  * Better accessibility: hotkeys, voice hints, settings/about page
  * Support all other major browsers
+ * Adds tooltips where it lacks
  * Support more major digital libraries
  * Open community support for any website
  * Send feedback feature

@@ -21,6 +21,13 @@
     }
   });
 
+  window.addEventListener('keydown', function (e) {
+    console.log(e);
+    if (e.altKey && (e.keyCode === 83 /* s */)) {
+      chrome.runtime.sendMessage({status: "Toggle"});
+    }
+  }, true);
+
   chrome.runtime.onMessage.addListener(function(msg, sender, sendResponse) {
     if (msg.status == "Toggle" && msg.toggle) {
       activate();

@@ -8,20 +8,20 @@
   "author": "Xavier Ho",
 
   "commands": {
-    "toggle-search-mode": {
+    "toggle-findwithsam": {
       "suggested_key": {
         "default": "Alt+S"
       },
-      "description": "Toggle search mode on and off"
+      "description": "Toggle Find with Sam on or off."
     }
   },
 
   "page_action": {
     "default_icon": {
-      "19": "button19px.png",
-      "38": "button38px.png"
+      "19": "images/button19px.png",
+      "38": "images/button38px.png"
     },
-    "default_title": "Search Mode is ON"
+    "default_title": "Find with Sam is ON."
   },
 
   "background": {
