@@ -36,18 +36,3 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
     handleToggle(sender.tab);
   }
 });
-
-// function doInCurrentTab(tabCallback) {
-//   chrome.tabs.query({ currentWindow: true, active: true },
-//     function (tabArray) { tabCallback(tabArray[0]); }
-//   );
-// }
-
-// chrome.commands.onCommand.addListener(function (command) {
-//   if (command === 'toggle-findwithsam') {
-//     doInCurrentTab(function (tab) {
-//       toggle[tab.id] = !toggle[tab.id];
-//       chrome.tabs.sendMessage(tab.id, {status: "Toggle", toggle: toggle[tab.id]});
-//     });
-//   }
-// });
