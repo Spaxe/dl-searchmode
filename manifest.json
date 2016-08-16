@@ -2,7 +2,7 @@
   "manifest_version": 2,
 
   "name": "Find with Sam",
-  "description": "Do you use a screen reader to search academic literature? Find with Sam to save you time! (Currently works on ACM Digital Library and JSTOR.) Please use https://github.com/Spaxe/findwithsam/issues to give us feedback.",
+  "description": "Do you use a screen reader to search academic literature? Find with Sam works on ACM Digital Library and JSTOR!",
   "version": "1.0",
 
   "author": "Xavier Ho",
