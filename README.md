@@ -1,7 +1,7 @@
+[Install Find With Sam on the Chrome Web Store](https://chrome.google.com/webstore/detail/find-with-sam/knlhdjamkmcbnigchnngiiibhlilbiio)!
+================================================
 
-Find with Sam
-=============
-Find with Sam is a Google Chrome extension aimed at creating a better search experience with digital libraries for screen reader users.
+[Find with Sam](https://chrome.google.com/webstore/detail/find-with-sam/knlhdjamkmcbnigchnngiiibhlilbiio) is a Google Chrome extension aimed at creating a better search experience with digital libraries for screen reader users.
 
 Features
 --------
