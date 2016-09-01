@@ -42,12 +42,16 @@ Load unpacked extensions and contribute your own additions!
  6. Edit [`findwithsam.css`](https://github.com/Spaxe/findwithsam/blob/master/findwithsam.css) and reload the extension to see your changes!
  7. [Send us a pull request](https://github.com/Spaxe/findwithsam/pulls)!
 
-Acknowledgement
----------------
-Martin Tomitsch, Design Lab, University of Sydney
+Project Team
+------------
+[Martin Tomitsch](http://www.martintomitsch.com/), Design Lab, University of Sydney
 
-Kim Wilson, Fisher Library, University of Sydney
+[Kim Wilson](http://sydney.edu.au/perl-bin/phlookup.cgi?type=people&search_type=simple&name=Kim+Wilson&search_by=name&commit=Search), University of Sydney Library
 
+[Xavier Ho](http://jumptoglide.com/), Design Lab, University of Sydney
+
+Acknowledgements
+----------------
 John Allsopp, Web Directions
 
 Sheron Kerr, Global Access Project
