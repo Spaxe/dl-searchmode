@@ -22,7 +22,6 @@
   });
 
   window.addEventListener('keydown', function (e) {
-    console.log(e);
     if (e.altKey && (e.keyCode === 83 /* s */)) {
       chrome.runtime.sendMessage({status: "Toggle"});
     }
